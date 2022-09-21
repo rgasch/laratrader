@@ -22,10 +22,21 @@ Make sure all dependencies have been installed before moving on:
 
 ## Install
 
-Pull the package via Composer:
+Register this fork in your composer.json 'repositories' section: 
+
+```
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rgasch/trader"
+        }
+    ],
+```
+
+Pull the package via Composer (it will use this fork which you defined above):
 
 ``` bash
-$ composer require rgasch/laratrader
+$ composer require laratrade/trader
 ```
 
 ## Usage
