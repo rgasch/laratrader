@@ -22,7 +22,7 @@ Make sure all dependencies have been installed before moving on:
 Pull the package via Composer:
 
 ``` bash
-$ composer require rgasch/trader
+$ composer require rgasch/laratrader
 ```
 
 ## Usage
