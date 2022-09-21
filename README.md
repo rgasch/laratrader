@@ -7,7 +7,10 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Laravel package for trader extension interface.
+Laravel package for trader extension interface. Forked from [laratrade/trader](https://github.com/laratrade/trader) which seems to have been abandoned. The main purpose of this fork is to updated dependencies so that:
+
+* PHP 8.1 is required
+* it can be installed on current Laravel versions.
 
 ## Requirements
 
